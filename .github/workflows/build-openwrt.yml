@@ -73,11 +73,7 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH 
         
-    - name: Update packages 
-      run: |
-          svn co --force https://github.com/skywalkker/openwrt-packages/trunk/luci-app-openclash package/luci-app-openclash    && svn revert -R package/luci-app-openclash
-          svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-ipsec-vpnd package/luci-app-ipsec-vpnd   && svn revert -R package/luci-app-ipsec-vpnd
-          svn co --force https://github.com/skywalkker/openwrt-packages/trunk/luci-app-passwall package/luci-app-passwall   && svn revert -R package/luci-app-openclash
+   
    
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
