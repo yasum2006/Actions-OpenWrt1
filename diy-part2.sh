@@ -10,7 +10,7 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generate
-# git clone https://github.com/skywalkker/passwall.git  package/luci-app-passwall
+git clone https://github.com/skywalkker/passwall.git  package/luci-app-passwall
  git clone  -b master https://github.com/frainzy1477/luci-app-clash.git  package/luci-app-clash
  git clone https://github.com/solidus1983/luci-theme-opentomato.git package/luci-theme-opentomato
  #svn co --force https://github.com/kenzok8/openwrt-packages/trunk/luci-app-ssr-plus  package/luci-app-ssr-plus  && svn revert -R package/luci-app-ssr-plus
