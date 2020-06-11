@@ -18,5 +18,5 @@ sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generat
 
  #git clone  https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-theme-opentomcat
  
-#svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean package/lean  && svn revert -R package/lean
+svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean package/lean  && svn revert -R package/lean
 
