@@ -29,7 +29,7 @@ env:
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
-  SSH_ACTIONS: false
+  SSH_ACTIONS: true
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER:  true
@@ -97,7 +97,6 @@ jobs:
       id: package
       run: |
         cd openwrt
-        rm -rf package/network/services/dnsmasq
         make defconfig
         make download -j8
         find dl -size -1024c -exec ls -l {} \;
