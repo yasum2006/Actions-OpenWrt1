@@ -15,8 +15,8 @@ git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-cla
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone -b master  https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 
-svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby package/adbyby   && svn revert -R package/adbyby
-svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-adbyby-plus package/luci-app-adbyby-plus   && svn revert -R package/luci-app-adbyby-plus 
+#svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby package/adbyby   && svn revert -R package/adbyby
+#svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-adbyby-plus package/luci-app-adbyby-plus   && svn revert -R package/luci-app-adbyby-plus 
 svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean//luci-app-zerotier package/luci-app-zerotier   && svn revert -R package/luci-app-zerotier
 
 
