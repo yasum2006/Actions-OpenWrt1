@@ -15,8 +15,5 @@ git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-cla
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone -b master  https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 
-git clone https://github.com/ElonH/Rclone-OpenWrt.git
-
-svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean//luci-app-zerotier package/luci-app-zerotier && svn revert -R package/luci-app-zerotier
-
-
+svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-filetransfer package/luci-app-filetransfer && svn revert -R package/luci-app-filetransfer
+svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-zerotier package/luci-app-zerotier && svn revert -R package/luci-app-zerotier
