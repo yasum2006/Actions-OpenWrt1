@@ -10,7 +10,7 @@ Build OpenWrt using GitHub Actions
 
 
 说明：
-基于官方原版openwrt编译，仅仅增加了luci-app-clash,luci-app-openclash,luci-app-zerotier,luci-app-augardhome4个开源插件
+基于官方原版openwrt编译，仅仅增加了luci-app-clash,luci-app-openclash,luci-app-zerotier,luci-app-augardhome共4个开源插件
 
 默认地址修改为：192.168.8.1
 默认密码为空
