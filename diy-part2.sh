@@ -18,4 +18,5 @@ git clone https://github.com/cokebar/openwrt-vlmcsd.git package/vlmcsd
 git clone https://github.com/cokebar/luci-app-vlmcsd.git package/luci-app-vlmcsd
 
 svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-zerotier package/luci-app-zerotier && svn revert -R package/luci-app-zerotier
+svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-softethervpn package/luci-app-softethervpn && svn revert -R package/luci-app-softethervpn
 svn co --force https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome && svn revert -R package/luci-app-adguardhome
