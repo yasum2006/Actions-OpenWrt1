@@ -7,9 +7,7 @@
 # Author: P3TERX
 # Blog: https://p3terx.com
 #=============================================================
-pushd feeds/packages/lang
-rm -fr golang && svn co https://github.com/openwrt/packages/trunk/lang/golang
-popd
+
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
