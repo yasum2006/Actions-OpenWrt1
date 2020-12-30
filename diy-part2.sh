@@ -20,6 +20,6 @@ svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-
 svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-softethervpn package/luci-app-softethervpn && svn revert -R package/luci-app-softethervpn
 svn co --force https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome && svn revert -R package/luci-app-adguardhome
 
-#pushd feeds/packages/lang
-#rm -fr golang && svn co https://github.com/openwrt/packages/trunk/lang/golang
-#popd
+pushd feeds/packages/lang
+rm -fr golang && svn co https://github.com/openwrt/packages/trunk/lang/golang
+popd
