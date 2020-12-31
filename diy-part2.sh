@@ -5,7 +5,7 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 # Lisence: MIT
 # Author: P3TERX
-# Blog: https://p3terx.com
+# https://github.com/yfdoor/OpenWrt/blob/master/.github/workflows/OpenWrt-Build.yml
 #============================================================
 
 # Modify default IP
@@ -19,7 +19,7 @@ svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-
 svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-softethervpn package/luci-app-softethervpn && svn revert -R package/luci-app-softethervpn
 svn co --force https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome && svn revert -R package/luci-app-adguardhome
 
-#passwall-package from https://github.com/yfdoor/OpenWrt/blob/master/.github/workflows/OpenWrt-Build.yml
+#passwall-package 
 git clone https://github.com/xiaorouji/openwrt-passwall.git  package/passwall
 mkdir -p tools/ucl && wget -P tools/ucl https://raw.githubusercontent.com/coolsnowwolf/lede/master/tools/ucl/Makefile 
 mkdir -p tools/upx && wget -P tools/upx https://raw.githubusercontent.com/coolsnowwolf/lede/master/tools/upx/Makefile
