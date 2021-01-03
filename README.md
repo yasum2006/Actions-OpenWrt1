@@ -23,4 +23,4 @@ cd openwrt && make menuconfig
 默认管理IP地址修改为：192.168.8.1
 默认密码为空
 
-官方已编译ipk软件：https://downloads.openwrt.org/snapshots/packages/x86_64/packages/
+官方已编译ipk软件：https://downloads.openwrt.org/snapshots/packages/x86_64/packages/ (最新版openclash需要libcap及libcap-bin二个文件，从上面下载2.43版的，SSH到openwrt用opkg install安装即可)
