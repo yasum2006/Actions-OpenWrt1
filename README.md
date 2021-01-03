@@ -8,7 +8,7 @@ Build OpenWrt using GitHub Actions
 
 [Read the details in my blog (in Chinese) | 中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
-SSH 连接到 Actions：复制 SSH 连接命令粘贴到浏览器中打开使用网页终端。（网页终端可能会遇到黑屏的情况，按 Ctrl+C 即可）。如何开启SSH链接参考此https://github.com/P3TERX/Actions-OpenWrt/issues/237
+SSH 连接到 Actions：复制 SSH 连接命令粘贴到浏览器中打开使用网页终端。网页终端可能会遇到黑屏的情况，按 Ctrl+C 即可。如何开启SSH链接参考此https://github.com/P3TERX/Actions-OpenWrt/issues/237
 
 cd openwrt && make menuconfig
 
