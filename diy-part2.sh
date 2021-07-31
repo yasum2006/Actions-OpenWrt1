@@ -30,6 +30,8 @@ mkdir -p tools/upx && wget -P tools/upx https://raw.githubusercontent.com/coolsn
 sed -i '23a\tools-y += ucl upx' tools/Makefile
 sed -i '/builddir dependencies/a\$(curdir)/upx/compile := $(curdir)/ucl/compile' tools/Makefile
 
+make clean
+
 #update golang
 pushd feeds/packages/lang
 rm -rf golang && svn co https://github.com/openwrt/packages/trunk/lang/golang
