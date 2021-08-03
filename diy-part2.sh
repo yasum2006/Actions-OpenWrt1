@@ -13,13 +13,12 @@ sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generat
 
 #custom your packages
 git clone -b master  https://github.com/vernesong/OpenClash.git package/luci-app-openclash
-git clone -b master https://github.com/wolandmaster/luci-app-rtorrent package/luci-app-rtorrent
+#git clone -b master https://github.com/wolandmaster/luci-app-rtorrent package/luci-app-rtorrent
 
 svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-accesscontrol package/luci-app-accesscontrol && svn revert -R package/luci-app-accesscontrol
 svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-zerotier package/luci-app-zerotier && svn revert -R package/luci-app-zerotier
 svn co --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-softethervpn package/luci-app-softethervpn && svn revert -R package/luci-app-softethervpn
 svn co --force https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome && svn revert -R package/luci-app-adguardhome
-
 
 #passwall-package 
 git clone https://github.com/xiaorouji/openwrt-passwall.git  package/passwall
