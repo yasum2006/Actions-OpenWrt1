@@ -16,11 +16,11 @@ cd openwrt && make menuconfig
 
 
 说明：
-基于官方原版openwrt-19.07编译：https://github.com/openwrt/openwrt/tree/openwrt-19.07
+基于官方原版openwrt-21.02编译：https://github.com/openwrt/openwrt/tree/openwrt-21.02
 
 仅仅增加了luci-app-openclash,luci-app-passwall,luci-app-zerotier,luci-app-augardhome，luci-app-softethervpn,luci-app-accesscontrol共6个开源插件，极其精简和稳定（40M左右）
 
 默认管理IP地址修改为：192.168.8.1
 默认密码为空
 
-官方已编译ipk软件：https://downloads.openwrt.org/snapshots/packages/x86_64/packages/ (最新版openclash需要libcap及libcap-bin二个文件，从上面下载2.43版的，SSH到openwrt用opkg install安装即可)
+官方已编译ipk软件：https://downloads.openwrt.org/snapshots/packages/x86_64/packages/ 
