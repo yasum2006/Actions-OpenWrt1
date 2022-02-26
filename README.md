@@ -20,7 +20,7 @@ cd openwrt && make menuconfig
 说明：
 基于官方原版openwrt-21.02编译：https://github.com/openwrt/openwrt/tree/openwrt-21.02
 
-仅仅增加了luci-app-openclash,luci-app-passwall,luci-app-zerotier,luci-app-augardhome，luci-app-softethervpn,luci-app-accesscontrol共6个开源插件，极其精简和稳定（40M左右）。
+仅仅增加了luci-app-openclash,luci-app-passwall,luci-app-zerotier,luci-app-augardhome，luci-app-softethervpn,luci-app-accesscontrol共6个开源插件，极其精简和稳定（50M左右）。
 
 默认管理IP地址修改为：192.168.8.1
 默认密码为空
