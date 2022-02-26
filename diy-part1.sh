@@ -13,4 +13,4 @@
 sed -i 's/^#\(.*luci\)/\1/' feeds.conf.default
 
 # Add a feed source
-sed -i '$a src-git luci https://github.com/openwrt/luci.git' feeds.conf.default
+sed -i '$a src-git luci https://github.com/coolsnowwolf/luci' feeds.conf.default
