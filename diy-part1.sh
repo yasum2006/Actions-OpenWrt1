@@ -8,7 +8,6 @@
 # Blog: https://p3terx.com
 #=============================================================
 
-
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
