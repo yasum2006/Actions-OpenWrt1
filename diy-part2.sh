@@ -13,13 +13,11 @@ sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generat
 
 #custom your packages
 git clone -b master  https://github.com/vernesong/OpenClash.git package/luci-app-openclash
-
-#svn co --force https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-accesscontrol package/luci-app-accesscontrol && svn revert -R package/luci-app-accesscontrol
-#svn co --force https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-zerotier package/luci-app-zerotier && svn revert -R package/luci-app-zerotier
 svn co --force https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome && svn revert -R package/luci-app-adguardhome
 
 #passwall-package 
 git clone https://github.com/xiaorouji/openwrt-passwall.git  package/passwall
+
 #add upx
 mkdir -p tools/ucl && wget -P tools/ucl https://raw.githubusercontent.com/coolsnowwolf/lede/master/tools/ucl/Makefile 
 mkdir -p tools/upx && wget -P tools/upx https://raw.githubusercontent.com/coolsnowwolf/lede/master/tools/upx/Makefile
@@ -30,4 +28,3 @@ sed -i '/builddir dependencies/a\$(curdir)/upx/compile := $(curdir)/ucl/compile'
 pushd feeds/packages/lang
 rm -rf golang && svn co https://github.com/openwrt/packages/trunk/lang/golang
 popd
-
