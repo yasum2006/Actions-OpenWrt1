@@ -20,8 +20,6 @@ cd openwrt && make menuconfig
 说明：
 基于官方原版openwrt-21.02编译：https://github.com/openwrt/openwrt/tree/openwrt-21.02
 
-官方已编译ipk软件：https://downloads.openwrt.org/snapshots/packages/x86_64/packages/ 
-
 仅仅增加了luci-app-openclash,luci-app-passwall,luci-app-ssr-plus(helloworld),luci-app-zerotier,luci-app-augardhome，luci-app-softethervpn,luci-app-accesscontrol(上网时间控制)共7个开源插件，极其精简和稳定（50M左右）
 
 默认管理IP地址为：192.168.8.1
@@ -32,3 +30,6 @@ luci-app-adguardhome界面里配置完成，启动后显示”未运行 未重�
 ssh登录openwrt后台，运行以下命令即可
 
 chmod 755 /etc/init.d/AdGuardHome && service AdGuardHome restart
+
+
+官方已编译ipk软件：https://downloads.openwrt.org/snapshots/packages/x86_64/packages/ 
