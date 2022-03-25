@@ -25,7 +25,7 @@ cd openwrt && make menuconfig
 默认管理IP地址为：192.168.8.1
 默认密码为空
 
-luci-app-adguardhome界面里配置完成，启动后显示”未运行 未重定向“，是因为编译时没有加入权限。
+luci-app-adguardhome界面里配置完成，若启动后显示”未运行 未重定向“，是因为编译时没有加入权限。
 
 ssh登录openwrt后台，运行以下命令即可
 
