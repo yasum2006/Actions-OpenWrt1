@@ -16,6 +16,7 @@ git clone -b master  https://github.com/vernesong/OpenClash.git package/luci-app
 
 #passwall package
 git clone   https://github.com/starambler/openwrt-passwall.git  package/passwall
+
 #helloworld package
 git clone -b master  https://github.com/fw876/helloworld.git  package/helloworld
 #for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt"  "redsocks2"; do \
