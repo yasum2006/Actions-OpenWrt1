@@ -14,9 +14,9 @@ sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generat
 #openclash packages
 git clone -b master  https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 
-#passwall package
-git clone  https://github.com/armorgen/luci-app-passwall  package/luci-app-passwall
-git clone  https://github.com/xiaorouji/openwrt-passwall  package/passwall
+#passwall package 
+git clone  https://github.com/xiaorouji/openwrt-passwall.git  package/passwall
+git clone -b luci  https://github.com/xiaorouji/openwrt-passwall.git  package/luci-app-passwall
 
 #helloworld package
 git clone -b master  https://github.com/fw876/helloworld.git  package/helloworld
@@ -25,11 +25,9 @@ git clone -b master  https://github.com/fw876/helloworld.git  package/helloworld
 #done
 svn checkout https://github.com/immortalwrt/packages/trunk/net/redsocks2    package/helloworld/redsocks2
 
-#add upx
-mkdir -p tools/ucl && wget -P tools/ucl https://raw.githubusercontent.com/coolsnowwolf/lede/master/tools/ucl/Makefile 
-mkdir -p tools/upx && wget -P tools/upx https://raw.githubusercontent.com/coolsnowwolf/lede/master/tools/upx/Makefile
-sed -i '23a\tools-y += ucl upx' tools/Makefile
-sed -i '/builddir dependencies/a\$(curdir)/upx/compile := $(curdir)/ucl/compile' tools/Makefile
+#CDN speedtest package
+git clone https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest.git package/luci-app-cloudflarespeedtest
+git clone https://github.com/immortalwrt-collections/openwrt-cdnspeedtest.git package/cdnspeedtest
 
 #update golang
 pushd feeds/packages/lang
