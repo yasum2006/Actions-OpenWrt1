@@ -21,7 +21,7 @@ cd openwrt && make menuconfig
 基于官方原版openwrt-21.02编译：https://github.com/openwrt/openwrt/tree/openwrt-21.02
 
 仅仅增加了luci-app-openclash,luci-app-passwall,luci-app-ssr-plus(helloworld),luci-app-zerotier,luci-app-augardhome，luci-app-softethervpn,luci-
-app-accesscontrol(上网时间控制)，luci-app-cloudflarespeedtest（定时执行Cloudflare IP 速度测试，集成passwall和helloworld自动替换IP）共8个开源插件，极其精简和稳定
+app-accesscontrol(上网时间控制)，luci-app-cloudflarespeedtest（定时执行Cloudflare IP 速度测试，自动替换passwall和helloworld为优选IP）共8个开源插件，极其精简和稳定
 （50M左右）
 
 默认管理IP地址为192.168.8.1
