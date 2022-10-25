@@ -18,7 +18,7 @@ cd openwrt && make menuconfig
 
 
 说明：
-基于官方原版openwrt-21.02编译：https://github.com/openwrt/openwrt/tree/openwrt-22.03
+基于官方原版openwrt-22.03编译：https://github.com/openwrt/openwrt/tree/openwrt-22.03
 
 仅仅增加了luci-app-openclash,luci-app-passwall,luci-app-ssr-plus(helloworld),luci-app-zerotier,luci-app-augardhome，luci-app-softethervpn,luci-
 app-accesscontrol(上网时间控制)，luci-app-cloudflarespeedtest（定时执行Cloudflare IP 速度测试，自动替换passwall和helloworld为优选IP）共8个开源插件，极其精简和稳定
