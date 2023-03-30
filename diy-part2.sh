@@ -20,10 +20,16 @@ git clone -b luci  https://github.com/xiaorouji/openwrt-passwall.git  package/lu
 
 
 #CDN speedtest package
-#git clone https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest.git package/luci-app-cloudflarespeedtest
-#git clone https://github.com/immortalwrt-collections/openwrt-cdnspeedtest.git package/cdnspeedtest
+git clone https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest.git package/luci-app-cloudflarespeedtest
+git clone https://github.com/immortalwrt-collections/openwrt-cdnspeedtest.git package/cdnspeedtest
 
 #update golang
 pushd feeds/packages/lang
 rm -rf golang && svn co https://github.com/openwrt/packages/trunk/lang/golang
 popd
+
+#free space
+sudo rm -rf /usr/share/dotnet
+sudo rm -rf /opt/ghc
+sudo rm -rf "/usr/local/share/boost"
+sudo rm -rf "$AGENT_TOOLSDIRECTORY"
