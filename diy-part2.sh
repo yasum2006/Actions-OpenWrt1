@@ -20,8 +20,8 @@ git clone -b luci  https://github.com/xiaorouji/openwrt-passwall.git  package/lu
 
 
 #CDN speedtest package
-git clone https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest.git package/luci-app-cloudflarespeedtest
-git clone https://github.com/immortalwrt-collections/openwrt-cdnspeedtest.git package/cdnspeedtest
+#git clone https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest.git package/luci-app-cloudflarespeedtest
+#git clone https://github.com/immortalwrt-collections/openwrt-cdnspeedtest.git package/cdnspeedtest
 
 #update golang
 pushd feeds/packages/lang
