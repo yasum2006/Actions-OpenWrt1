@@ -18,6 +18,9 @@ git clone -b master  https://github.com/vernesong/OpenClash.git package/luci-app
 git clone  https://github.com/xiaorouji/openwrt-passwall.git  package/passwall
 git clone -b luci  https://github.com/xiaorouji/openwrt-passwall.git  package/luci-app-passwall
 
+#helloworld package
+git clone -b master  https://github.com/fw876/helloworld.git  package/helloworld
+
 #CDN speedtest package
 git clone https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest.git package/luci-app-cloudflarespeedtest
 git clone https://github.com/immortalwrt-collections/openwrt-cdnspeedtest.git package/cdnspeedtest
