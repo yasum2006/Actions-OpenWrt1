@@ -29,10 +29,3 @@ git clone https://github.com/immortalwrt-collections/openwrt-cdnspeedtest.git pa
 pushd feeds/packages/lang
 rm -rf golang && svn co https://github.com/openwrt/packages/trunk/lang/golang
 popd
-
-#free space
-#sudo rm -rf /usr/share/dotnet
-#sudo rm -rf /opt/ghc
-#sudo rm -rf "/usr/local/share/boost"
-#sudo rm -rf "$AGENT_TOOLSDIRECTORY"
-#df -h
