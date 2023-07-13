@@ -18,7 +18,7 @@ cd openwrt && make menuconfig
 
 
 说明：
-基于官方原版openwrt-22.03编译：https://github.com/openwrt/openwrt/tree/openwrt-22.03
+基于官方原版openwrt-23.05编译：https://github.com/openwrt/openwrt/tree/openwrt-23.05
 
 仅仅增加了luci-app-openclash,luci-app-passwall,luci-app-ssr-plus(helloworld),luci-app-zerotier,luci-app-augardhome,luci-
 app-accesscontrol(上网时间控制)，共6个开源插件，极其精简和稳定
@@ -36,4 +36,4 @@ chmod a+x /usr/bin/AdGuardHome
 chmod 755 /etc/init.d/AdGuardHome && service AdGuardHome restart
 
 
-官方已编译ipk软件：https://downloads.openwrt.org/snapshots/packages/x86_64/packages/ 
+官方已编译ipk软件：https://downloads.openwrt.org/releases/packages-23.05/x86_64/packages/
