@@ -22,7 +22,7 @@ cd openwrt && make menuconfig
 
 仅仅增加了luci-app-openclash,luci-app-passwall,luci-app-ssr-plus(helloworld),luci-app-zerotier,luci-app-augardhome,luci-
 app-accesscontrol(上网时间控制)，共6个开源插件，极其精简和稳定
-（60M左右）
+（70M左右）
 
 默认管理IP地址为192.168.8.1
 默认密码为空
