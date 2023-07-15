@@ -8,7 +8,7 @@ Build OpenWrt using GitHub Actions
 
 [Read the details in my blog (in Chinese) | 中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
-开启SSH:项目下点击菜单acitons，再左侧点击”build ...“,再点击右侧的”run workflow“，弹出的”SSH connection to Actions“中false修改成true即可。
+开启SSH:项目下点击菜单acitons，再左侧点击 "build openwrt",再点击右侧的"run workflow"，弹出的"SSH connection to Actions"中false修改成true即可。
 
 SSH 连接到 Actions：复制 SSH 连接命令到终端运行，或复制网址到浏览器中打开使用网页终端。终端可能会遇到黑屏的情况，按 Ctrl+C 即可。
 
