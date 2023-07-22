@@ -29,7 +29,7 @@ app-accesscontrol(上网时间控制)，共5个开源插件，极其精简和稳
 
 luci-app-adguardhome界面里配置完成，若启动后显示”未运行 未重定向“，是因为编译时没有加入权限。
 
-ssh登录openwrt后台，运行以下命令即可 (说明：程序AdGuardHome直接从github处下载，不要在openwrt里使用opkg命令安装)
+ssh登录openwrt后台，运行以下命令即可 (说明：程序AdGuardHome直接从github处下载相对应版本，并上传至/usr/bin/文件夹)
 
 chmod a+x /usr/bin/AdGuardHome 
 
