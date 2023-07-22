@@ -13,4 +13,4 @@
 
 # Add a feed source
  sed -i '$a src-git package https://github.com/eorendel/openwrt-luci.git' feeds.conf.default
- #sed -i '$a src-git package https://github.com/coolsnowwolf/luci' feeds.conf.default
+
