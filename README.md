@@ -27,13 +27,4 @@ app-accesscontrol(上网时间控制)，共5个开源插件，极其精简和稳
 默认管理IP地址为192.168.8.1
 默认密码为空
 
-luci-app-adguardhome界面里配置完成，若启动后显示”未运行 未重定向“，是因为编译时没有加入权限。
-
-ssh登录openwrt后台，运行以下命令即可 (说明：AdGuardHome程序直接从github处下载相应版本，并上传至/usr/bin/文件夹)
-
-chmod a+x /usr/bin/AdGuardHome 
-
-chmod 755 /etc/init.d/AdGuardHome && service AdGuardHome restart
-
-
 官方已编译ipk软件：https://downloads.openwrt.org/releases/packages-23.05/x86_64/packages/
