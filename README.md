@@ -28,3 +28,6 @@ app-accesscontrol(上网时间控制)，共5个开源插件，极其精简和稳
 默认密码为空
 
 官方已编译ipk软件：https://downloads.openwrt.org/releases/packages-23.05/x86_64/packages/
+
+
+openwrt下passwall等软件与adguardhome搭配使用，参考这里  https://libertyleadingnetwork.blogspot.com/2022/03/openwrtpasswallshadowsocksr-plus.html
