@@ -12,7 +12,7 @@
 sed -i 's/192.168.1.1/192.168.8.111/g' package/base-files/files/bin/config_generate
 
 #openclash packages
-git clone -b master  https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+# git clone -b master  https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 
 #passwall package 
 git clone  https://github.com/xiaorouji/openwrt-passwall.git  package/passwall
