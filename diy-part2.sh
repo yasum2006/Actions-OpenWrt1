@@ -9,7 +9,8 @@
 #============================================================
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.8.111/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.8.222/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/HP GEN8/g' package/base-files/files/bin/config_generate
 
 #openclash packages
 # git clone -b master  https://github.com/vernesong/OpenClash.git package/luci-app-openclash
